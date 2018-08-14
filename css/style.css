@@ -1,0 +1,48 @@
+.top-bar a {
+    text-decoration: none;
+}
+.top-bar ul {
+list-style: none;
+}
+.top-bar ul li {
+    display: inline;
+}
+.second-line a {
+    text-decoration: none;
+    color: white;
+}
+.second-line ul {
+    float: right;
+    margin-top: 28px;
+}
+.second-line ul li {
+    display: inline;
+    background-color: darkblue;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 10px;
+}
+.second-line ul li:hover {
+    background-color: orange;
+    cursor: pointer;
+}
+h2{
+    color: darkblue;
+    font-size: 40px
+}
+.smart a{
+    list-style: none;
+    display: inline;
+    background-color: darkblue;
+    color: white;
+    text-decoration: none;
+    font-size: 20px
+}
+.smart a{
+    list-style: none;
+    display: inline;
+    background-color: darkblue;
+    color: white;
+    text-decoration: none;
+    font-size: 20px
+}
