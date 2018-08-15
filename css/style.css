@@ -1,5 +1,12 @@
+
 .top-bar a {
     text-decoration: none;
+    color: grey;
+
+}
+.top-bar{
+    background-color: rgb(18, 30, 41);
+    padding: 1px
 }
 .top-bar ul {
 list-style: none;
@@ -7,6 +14,9 @@ list-style: none;
 .top-bar ul li {
     display: inline;
 }
+
+
+
 .second-line a {
     text-decoration: none;
     color: white;
@@ -17,32 +27,97 @@ list-style: none;
 }
 .second-line ul li {
     display: inline;
-    background-color: darkblue;
-    padding: 10px;
+    background-color: rgb(18, 30, 41);
+    padding: 14px;
     border-radius: 8px;
-    font-size: 10px;
+    font-size: 14px;
 }
 .second-line ul li:hover {
     background-color: orange;
     cursor: pointer;
 }
+
+
+
+
+.smart a {
+    text-decoration: none;
+    color: white;
+}
+.smart a {
+    display: inline;
+    background-color: rgb(17, 36, 54);
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 10px;
+}
+.smart a:hover {
+    background-color: orange;
+    cursor: pointer;
+}
+.smart a{
+    list-style: none;
+    display: inline;
+    background-color: 121e29;
+    color: white;
+    text-decoration: none;
+    font-size: 20px
+}
+
+
+
 h2{
-    color: darkblue;
+    color: rgb(25, 35, 46);
     font-size: 40px
 }
-.smart a{
-    list-style: none;
+h3{
+    font-size: 20px;
+    color: lightgrey;
+}
+
+
+.services p{
+    color: white;
+}
+.services h3{
+    font-size: 30px
+}
+.services ul{
+    color: white;
+}
+.services a {
+    text-decoration: none;
+    color: white;
     display: inline;
     background-color: darkblue;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 10px;
+}
+
+.services a:hover {
+    background-color: orange;
+    cursor: pointer;
+}
+.services a{
+    list-style: none;
+    display: inline;
+    background-color: rgb(32, 52, 71);
     color: white;
     text-decoration: none;
     font-size: 20px
 }
-.smart a{
-    list-style: none;
-    display: inline;
-    background-color: darkblue;
-    color: white;
-    text-decoration: none;
-    font-size: 20px
+.services{
+    background-color: rgb(45, 73, 105);
+}
+.services{
+    margin-top: 100px;
+}
+
+
+
+.privacy{
+    background-color:rgb(18, 30, 41);
+    color:white;
+    padding-bottom: 75px
 }
