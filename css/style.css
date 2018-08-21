@@ -1,15 +1,22 @@
-
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f5f5
+}
+.bar-across{
+    background-color: rgb(18, 30, 41);
+    padding: 0px;
+    height: 30px;
+}
 .top-bar a {
     text-decoration: none;
     color: grey;
-
-}
-.top-bar{
-    background-color: rgb(18, 30, 41);
-    padding: 1px
+    font-size: 12px;
+    padding: 0px;
+    
 }
 .top-bar ul {
 list-style: none;
+float: right;
 }
 .top-bar ul li {
     display: inline;
@@ -23,9 +30,10 @@ list-style: none;
 }
 .second-line ul {
     float: right;
-    margin-top: 28px;
+    margin-top: 40px;
 }
 .second-line ul li {
+    font-family: 'Fjalla One', sans-serif;
     display: inline;
     background-color: rgb(18, 30, 41);
     padding: 14px;
@@ -41,6 +49,7 @@ list-style: none;
 
 
 .smart a {
+    font-family: 'Fjalla One', sans-serif;
     text-decoration: none;
     color: white;
 }
@@ -49,7 +58,6 @@ list-style: none;
     background-color: rgb(17, 36, 54);
     padding: 10px;
     border-radius: 8px;
-    font-size: 10px;
 }
 .smart a:hover {
     background-color: orange;
@@ -57,26 +65,35 @@ list-style: none;
 }
 .smart a{
     list-style: none;
-    display: inline;
     background-color: 121e29;
     color: white;
     text-decoration: none;
-    font-size: 20px
+    font-size: 20px;
+    margin-top: 30px;
 }
 
 
 
 h2{
+    font-family: 'Fjalla One', sans-serif;
     color: rgb(25, 35, 46);
     font-size: 40px
 }
 h3{
+    font-family: 'Fjalla One', sans-serif;
     font-size: 20px;
     color: lightgrey;
 }
 
 
+
+.color-across {
+    background: #325373;
+    background: linear-gradient(to bottom, #325373 0%,#101a21 100%);
+}
 .services p{
+    list-style: none;
+    padding: 0px;
     color: white;
 }
 .services h3{
@@ -86,15 +103,17 @@ h3{
     color: white;
 }
 .services a {
+    font-family: 'Fjalla One', sans-serif;
     text-decoration: none;
     color: white;
     display: inline;
-    background-color: darkblue;
     padding: 10px;
     border-radius: 8px;
     font-size: 10px;
 }
-
+.services{
+    padding-bottom: 40px;
+}
 .services a:hover {
     background-color: orange;
     cursor: pointer;
@@ -108,16 +127,16 @@ h3{
     font-size: 20px
 }
 .services{
-    background-color: rgb(45, 73, 105);
-}
-.services{
     margin-top: 100px;
 }
 
 
 
+.p-across{
+    background-color:#091014;
+}
 .privacy{
-    background-color:rgb(18, 30, 41);
+    background-color:#091014;
     color:white;
     padding-bottom: 75px
 }
